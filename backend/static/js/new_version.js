@@ -1,7 +1,7 @@
 ymaps.ready(['Heatmap']).then(function init() {
     var obj = json;
     var myMap = new ymaps.Map("map", {
-        center: [57.77, 40.93],
+        center: [40.901099, 57.796071],
         zoom: 12
     }, {
         restrictMapArea: [[57.870355, 40.854916],[57.716463, 41.017508]]

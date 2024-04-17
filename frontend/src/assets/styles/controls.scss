@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    max-height: calc(100vh - 24px);
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+input {
+    height: fit-content;
+    font-size: larger;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px / 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    max-height: 90vh;
+    overflow-y: auto;
+    gap: 10px;
+    scrollbar-width: none;
+    padding: 10px;
+
+    li {
+        display: inline-block;
+        border-radius: 5px/5px;
+        padding: 5px 10px;
+        background: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+#marker {
+    display: block;
+    width: 50px;
+    height: 50px;
+    clip-path: circle(25px);
+    opacity: .5;
+}
